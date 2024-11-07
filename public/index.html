@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Neuton:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!--Banner section-->
+    <div class="banner">
+      <div class="banner-overlay"></div>
+      <div class="inside-container top-bar">
+         <p>Addie's</p>           
+      <div class="inside-container banner-content">
+        <div class="row">
+          <div class="col-12 content-col">
+            <h1 class="site-title">Addice it!</h1>
+            <p class="site-title-desc">Text summarizer with an AI powerup. This web app here uses AI APIs to help you summarize text. You can add the text in the box below and click on the button to get your summarized text. Try Addice today, and let me know what you think!</p>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+      <div style="display: flex;justify-content: space-between;padding-right: 124px;padding-left: 224px;padding-top: 118px;">
+        <p>Addice hopes to help you summarize text easily by copying and pasting text with few clicks. <br>Give it a try. It's free!</p>
+        <img src="site.png" alt="Addice image">
+      </div>
+    
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste any text here! (Min length is 200 chars & Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Addice it</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <div class="cta-text">
+        <h2>Pop me an email</h2>
+        <p>Get in touch to know more and share your feedback. Hope you liked Addice. <br> &copy; 2023 | Addie's</p>
+          
+    <a href="mailto:audisha9602@gmail.com" class="cta-button">Pop an email</a>
+        </div>
+        <img src="footer.png"></img>
+      </div>
+  </section>
+    
+<!--Necessary attributions, all the images were used from Pinterest or flaticon and favicon.-->
+
+    <!--javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
